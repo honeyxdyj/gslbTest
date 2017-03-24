@@ -1,0 +1,261 @@
+[INFO ]10:10:10,925, [Class]Debug, [Method]getPushUrlWithMapper, ===========getPushUrlWithMapper========
+[INFO ]10:10:11,146, [Class]HttpHelper, [Method]getCompleteURL, URL: http://106.2.125.201:8080/getpushurl
+[INFO ]10:10:11,241, [Class]HttpHelper, [Method]post, body:{"pushUrl":"rtmp://p2e96200b.live.126.net/live/42c29b5c78524d3086f20fa31e522e71?wsSecret=c4e7e4c10bd691794ab6a85ced00163b&wsTime=1482132014"}
+[INFO ]10:10:12,173, [Class]HttpHelper, [Method]processResponseCode, 200
+[INFO ]10:10:12,173, [Class]HttpHelper, [Method]processResponseCode, HTTP/1.1 200 OK
+[INFO ]10:10:12,174, [Class]HttpHelper, [Method]processResponseCode, {"requestId":"e06407ca-f7da-11e6-9d91-fa163efc0c90","rtmpservers":[{"url":"rtmp://p2e96200b.live.126.net/live/42c29b5c78524d3086f20fa31e522e71?wsSecret=c4e7e4c10bd691794ab6a85ced00163b&wsTime=1482132014","type":"CNC","region":""}],"cdnType":"CNC","sdkParasRet":null}
+
+[INFO ]10:10:12,266, [Class]HttpHelper, [Method]processResponseCode, {
+  "requestId": "e06407ca-f7da-11e6-9d91-fa163efc0c90",
+  "rtmpservers": [
+    {
+      "url": "rtmp://p2e96200b.live.126.net/live/42c29b5c78524d3086f20fa31e522e71?wsSecret\u003dc4e7e4c10bd691794ab6a85ced00163b\u0026wsTime\u003d1482132014",
+      "type": "CNC",
+      "region": ""
+    }
+  ],
+  "cdnType": "CNC"
+}
+[INFO ]10:10:12,355, [Class]Debug, [Method]getPushUrlWithMapper, ==========================返回webrtc方式次数： 0
+[INFO ]10:12:11,519, [Class]Debug, [Method]getPushUrlWithMapper, ===========getPushUrlWithMapper========
+[INFO ]10:12:11,565, [Class]HttpHelper, [Method]getCompleteURL, URL: http://106.2.125.201:8080/getpushurl
+[INFO ]10:12:11,625, [Class]HttpHelper, [Method]post, body:{"pushUrl":"rtmp://p2e96200b.live.126.net/live/42c29b5c78524d3086f20fa31e522e71?wsSecret=c4e7e4c10bd691794ab6a85ced00163b&wsTime=1482132014"}
+[INFO ]10:12:11,962, [Class]HttpHelper, [Method]processResponseCode, 200
+[INFO ]10:12:11,963, [Class]HttpHelper, [Method]processResponseCode, HTTP/1.1 200 OK
+[INFO ]10:12:11,963, [Class]HttpHelper, [Method]processResponseCode, {"requestId":"27d08d3d-f7db-11e6-9d91-fa163efc0c90","rtmpservers":[{"url":"rtmp://p2e96200b.live.126.net/live/42c29b5c78524d3086f20fa31e522e71?wsSecret=c4e7e4c10bd691794ab6a85ced00163b&wsTime=1482132014","type":"CNC","region":""}],"cdnType":"CNC","sdkParasRet":null}
+
+[INFO ]10:12:12,030, [Class]HttpHelper, [Method]processResponseCode, {
+  "requestId": "27d08d3d-f7db-11e6-9d91-fa163efc0c90",
+  "rtmpservers": [
+    {
+      "url": "rtmp://p2e96200b.live.126.net/live/42c29b5c78524d3086f20fa31e522e71?wsSecret\u003dc4e7e4c10bd691794ab6a85ced00163b\u0026wsTime\u003d1482132014",
+      "type": "CNC",
+      "region": ""
+    }
+  ],
+  "cdnType": "CNC"
+}
+[INFO ]10:12:12,040, [Class]Debug, [Method]getPushUrlWithMapper, ==========================返回webrtc方式次数： 0
+[INFO ]10:15:42,166, [Class]Debug, [Method]getPushUrlWithMapper, ===========getPushUrlWithMapper========
+[INFO ]10:15:42,249, [Class]HttpHelper, [Method]getCompleteURL, URL: http://106.2.125.201:8080/getpushurl
+[INFO ]10:15:42,293, [Class]HttpHelper, [Method]post, body:{"pushUrl":"rtmp://p2e96200b.live.126.net/live/42c29b5c78524d3086f20fa31e522e71?wsSecret=c4e7e4c10bd691794ab6a85ced00163b&wsTime=1482132014"}
+[INFO ]10:15:42,661, [Class]HttpHelper, [Method]processResponseCode, 200
+[INFO ]10:15:42,661, [Class]HttpHelper, [Method]processResponseCode, HTTP/1.1 200 OK
+[INFO ]10:15:42,661, [Class]HttpHelper, [Method]processResponseCode, {"requestId":"a563e177-f7db-11e6-9d91-fa163efc0c90","rtmpservers":[{"url":"rtmp://106.2.44.16/live/42c29b5c78524d3086f20fa31e522e71?token=rtmpeyJjZG5zIjpbeyJ1cmwiOiJydG1wOi8vcDJlOTYyMDBiLmxpdmUuMTI2Lm5ldC9saXZlLzQyYzI5YjVjNzg1MjRkMzA4NmYyMGZhMzFlNTIyZTcxP3dzU2VjcmV0PWM0ZTdlNGMxMGJkNjkxNzk0YWI2YTg1Y2VkMDAxNjNiJndzVGltZT0xNDgyMTMyMDE0IiwidHlwZSI6IkNOQyJ9XX0K:311fea051b4045db8301a1eaf8da2060:M79w1CIiU7sd1N0AKRlG3YeCVz4&src=p2e96200b.live.126.net","type":"netease","region":"yj1"},{"url":"rtmp://p2e96200b.live.126.net/live/42c29b5c78524d3086f20fa31e522e71?wsSecret=c4e7e4c10bd691794ab6a85ced00163b&wsTime=1482132014","type":"CNC","region":""}],"pushUrl":"rtmp://106.2.44.16/live/42c29b5c78524d3086f20fa31e522e71?token=rtmpeyJjZG5zIjpbeyJ1cmwiOiJydG1wOi8vcDJlOTYyMDBiLmxpdmUuMTI2Lm5ldC9saXZlLzQyYzI5YjVjNzg1MjRkMzA4NmYyMGZhMzFlNTIyZTcxP3dzU2VjcmV0PWM0ZTdlNGMxMGJkNjkxNzk0YWI2YTg1Y2VkMDAxNjNiJndzVGltZT0xNDgyMTMyMDE0IiwidHlwZSI6IkNOQyJ9XX0K:311fea051b4045db8301a1eaf8da2060:M79w1CIiU7sd1N0AKRlG3YeCVz4&src=p2e96200b.live.126.net","sdkParasRet":null}
+
+[INFO ]10:15:42,696, [Class]HttpHelper, [Method]processResponseCode, {
+  "requestId": "a563e177-f7db-11e6-9d91-fa163efc0c90",
+  "rtmpservers": [
+    {
+      "url": "rtmp://106.2.44.16/live/42c29b5c78524d3086f20fa31e522e71?token\u003drtmpeyJjZG5zIjpbeyJ1cmwiOiJydG1wOi8vcDJlOTYyMDBiLmxpdmUuMTI2Lm5ldC9saXZlLzQyYzI5YjVjNzg1MjRkMzA4NmYyMGZhMzFlNTIyZTcxP3dzU2VjcmV0PWM0ZTdlNGMxMGJkNjkxNzk0YWI2YTg1Y2VkMDAxNjNiJndzVGltZT0xNDgyMTMyMDE0IiwidHlwZSI6IkNOQyJ9XX0K:311fea051b4045db8301a1eaf8da2060:M79w1CIiU7sd1N0AKRlG3YeCVz4\u0026src\u003dp2e96200b.live.126.net",
+      "type": "netease",
+      "region": "yj1"
+    },
+    {
+      "url": "rtmp://p2e96200b.live.126.net/live/42c29b5c78524d3086f20fa31e522e71?wsSecret\u003dc4e7e4c10bd691794ab6a85ced00163b\u0026wsTime\u003d1482132014",
+      "type": "CNC",
+      "region": ""
+    }
+  ],
+  "pushUrl": "rtmp://106.2.44.16/live/42c29b5c78524d3086f20fa31e522e71?token\u003drtmpeyJjZG5zIjpbeyJ1cmwiOiJydG1wOi8vcDJlOTYyMDBiLmxpdmUuMTI2Lm5ldC9saXZlLzQyYzI5YjVjNzg1MjRkMzA4NmYyMGZhMzFlNTIyZTcxP3dzU2VjcmV0PWM0ZTdlNGMxMGJkNjkxNzk0YWI2YTg1Y2VkMDAxNjNiJndzVGltZT0xNDgyMTMyMDE0IiwidHlwZSI6IkNOQyJ9XX0K:311fea051b4045db8301a1eaf8da2060:M79w1CIiU7sd1N0AKRlG3YeCVz4\u0026src\u003dp2e96200b.live.126.net"
+}
+[INFO ]10:15:42,707, [Class]Debug, [Method]getPushUrlWithMapper, ==========================返回webrtc方式次数： 0
+[INFO ]10:25:27,994, [Class]Debug, [Method]getPushUrlWithMapper, ===========getPushUrlWithMapper========
+[INFO ]10:25:28,030, [Class]HttpHelper, [Method]getCompleteURL, URL: http://106.2.125.201:8080/getpushurl
+[INFO ]10:25:28,075, [Class]HttpHelper, [Method]post, body:{"pushUrl":"rtmp://p2e96200b.live.126.net/live/42c29b5c78524d3086f20fa31e522e71?wsSecret=c4e7e4c10bd691794ab6a85ced00163b&wsTime=1482132014"}
+[INFO ]10:25:28,483, [Class]HttpHelper, [Method]processResponseCode, 200
+[INFO ]10:25:28,484, [Class]HttpHelper, [Method]processResponseCode, HTTP/1.1 200 OK
+[INFO ]10:25:28,484, [Class]HttpHelper, [Method]processResponseCode, {"requestId":"02906adb-f7dd-11e6-9d91-fa163efc0c90","rtmpservers":[{"url":"rtmp://p2e96200b.live.126.net/live/42c29b5c78524d3086f20fa31e522e71?wsSecret=c4e7e4c10bd691794ab6a85ced00163b&wsTime=1482132014","type":"CNC","region":""}],"cdnType":"CNC","sdkParasRet":null}
+
+[INFO ]10:25:28,529, [Class]HttpHelper, [Method]processResponseCode, {
+  "requestId": "02906adb-f7dd-11e6-9d91-fa163efc0c90",
+  "rtmpservers": [
+    {
+      "url": "rtmp://p2e96200b.live.126.net/live/42c29b5c78524d3086f20fa31e522e71?wsSecret\u003dc4e7e4c10bd691794ab6a85ced00163b\u0026wsTime\u003d1482132014",
+      "type": "CNC",
+      "region": ""
+    }
+  ],
+  "cdnType": "CNC"
+}
+[INFO ]10:25:28,539, [Class]Debug, [Method]getPushUrlWithMapper, ==========================返回webrtc方式次数： 0
+[INFO ]10:27:56,615, [Class]Debug, [Method]getPushUrlWithMapper, ===========getPushUrlWithMapper========
+[INFO ]10:27:56,708, [Class]HttpHelper, [Method]getCompleteURL, URL: http://106.2.125.201:8080/getpushurl
+[INFO ]10:27:56,731, [Class]HttpHelper, [Method]post, body:{"pushUrl":"rtmp://p2e96200b.live.126.net/live/42c29b5c78524d3086f20fa31e522e71?wsSecret=c4e7e4c10bd691794ab6a85ced00163b&wsTime=1482132014"}
+[INFO ]10:27:57,094, [Class]HttpHelper, [Method]processResponseCode, 200
+[INFO ]10:27:57,094, [Class]HttpHelper, [Method]processResponseCode, HTTP/1.1 200 OK
+[INFO ]10:27:57,094, [Class]HttpHelper, [Method]processResponseCode, {"requestId":"5b258418-f7dd-11e6-9d91-fa163efc0c90","rtmpservers":[{"url":"rtmp://p2e96200b.live.126.net/live/42c29b5c78524d3086f20fa31e522e71?wsSecret=c4e7e4c10bd691794ab6a85ced00163b&wsTime=1482132014","type":"CNC","region":""}],"cdnType":"CNC","sdkParasRet":null}
+
+[INFO ]10:27:57,123, [Class]HttpHelper, [Method]processResponseCode, {
+  "requestId": "5b258418-f7dd-11e6-9d91-fa163efc0c90",
+  "rtmpservers": [
+    {
+      "url": "rtmp://p2e96200b.live.126.net/live/42c29b5c78524d3086f20fa31e522e71?wsSecret\u003dc4e7e4c10bd691794ab6a85ced00163b\u0026wsTime\u003d1482132014",
+      "type": "CNC",
+      "region": ""
+    }
+  ],
+  "cdnType": "CNC"
+}
+[INFO ]10:27:57,133, [Class]Debug, [Method]getPushUrlWithMapper, ==========================返回webrtc方式次数： 0
+[INFO ]10:57:06,325, [Class]Debug, [Method]getPushUrlWithMapper, ===========getPushUrlWithMapper========
+[INFO ]10:57:06,395, [Class]HttpHelper, [Method]getCompleteURL, URL: http://gslb.live.126.net/getpushurl
+[INFO ]10:57:06,421, [Class]HttpHelper, [Method]post, body:{"pushUrl":"rtmp://p2e96200b.live.126.net/live/42c29b5c78524d3086f20fa31e522e71?wsSecret=c4e7e4c10bd691794ab6a85ced00163b&wsTime=1482132014"}
+[INFO ]10:57:06,833, [Class]HttpHelper, [Method]processResponseCode, 400
+[INFO ]10:57:06,833, [Class]HttpHelper, [Method]processResponseCode, HTTP/1.1 400 Bad Request
+[INFO ]10:57:06,833, [Class]HttpHelper, [Method]processResponseCode, {"requestId":"6e0ab6d9-f7e1-11e6-b0a2-fa163e6ba0ae","message":"url not registered"}
+
+[INFO ]10:57:06,857, [Class]HttpHelper, [Method]processResponseCode, {
+  "requestId": "6e0ab6d9-f7e1-11e6-b0a2-fa163e6ba0ae",
+  "message": "url not registered"
+}
+[ERROR]10:57:06,866, [Class]Debug, [Method]getPushUrlWithMapper, AssertionError:
+java.lang.AssertionError: expected [200] but found [400]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:370)
+	at org.testng.Assert.assertEquals(Assert.java:380)
+	at com.netease.vcloud.dawn.gslb.testcase.MapperTest.getPushUrlWithMapper(MapperTest.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+[INFO ]10:59:55,152, [Class]Debug, [Method]getPushUrlOnline, ===========getPushUrlTencentVcloud========
+[INFO ]10:59:55,196, [Class]HttpHelper, [Method]getCompleteURL, URL: http://gslb.live.126.net/getpushurl
+[INFO ]10:59:55,280, [Class]HttpHelper, [Method]post, body:{"pushUrl":"rtmp://p2e938040.live.126.net/live/d22b53f3308647b2bb3fd9c00f10eb04?wsSecret=b60558bdd38d6b8ff0e3df7d5032ccb1&wsTime=1482995003"}
+[INFO ]10:59:55,733, [Class]HttpHelper, [Method]processResponseCode, 200
+[INFO ]10:59:55,734, [Class]HttpHelper, [Method]processResponseCode, HTTP/1.1 200 OK
+[INFO ]10:59:55,734, [Class]HttpHelper, [Method]processResponseCode, {"requestId":"d2b8ca01-f7e1-11e6-a143-fa163eac5853","rtmpservers":[{"url":"rtmp://59.111.17.86/live/d22b53f3308647b2bb3fd9c00f10eb04?token=rtmpeyJjZG5zIjpbeyJ1cmwiOiJydG1wOi8vcDJlOTM4MDQwLmxpdmUuMTI2Lm5ldC9saXZlL2QyMmI1M2YzMzA4NjQ3YjJiYjNmZDljMDBmMTBlYjA0P3dzU2VjcmV0PWI2MDU1OGJkZDM4ZDZiOGZmMGUzZGY3ZDUwMzJjY2IxJndzVGltZT0xNDgyOTk1MDAzIiwidHlwZSI6IkNOQyJ9XX0K:311fea051b4045db8301a1eaf8da2060:VaI2GHvuWMHFYX4rAMieF7wGvAU&src=p2e938040.live.126.net","type":"netease","region":"hz"},{"url":"rtmp://59.111.17.89/live/d22b53f3308647b2bb3fd9c00f10eb04?token=rtmpeyJjZG5zIjpbeyJ1cmwiOiJydG1wOi8vcDJlOTM4MDQwLmxpdmUuMTI2Lm5ldC9saXZlL2QyMmI1M2YzMzA4NjQ3YjJiYjNmZDljMDBmMTBlYjA0P3dzU2VjcmV0PWI2MDU1OGJkZDM4ZDZiOGZmMGUzZGY3ZDUwMzJjY2IxJndzVGltZT0xNDgyOTk1MDAzIiwidHlwZSI6IkNOQyJ9XX0K:311fea051b4045db8301a1eaf8da2060:VaI2GHvuWMHFYX4rAMieF7wGvAU&src=p2e938040.live.126.net","type":"netease","region":"hz"},{"url":"rtmp://59.111.17.88/live/d22b53f3308647b2bb3fd9c00f10eb04?token=rtmpeyJjZG5zIjpbeyJ1cmwiOiJydG1wOi8vcDJlOTM4MDQwLmxpdmUuMTI2Lm5ldC9saXZlL2QyMmI1M2YzMzA4NjQ3YjJiYjNmZDljMDBmMTBlYjA0P3dzU2VjcmV0PWI2MDU1OGJkZDM4ZDZiOGZmMGUzZGY3ZDUwMzJjY2IxJndzVGltZT0xNDgyOTk1MDAzIiwidHlwZSI6IkNOQyJ9XX0K:311fea051b4045db8301a1eaf8da2060:VaI2GHvuWMHFYX4rAMieF7wGvAU&src=p2e938040.live.126.net","type":"netease","region":"hz"},{"url":"rtmp://p2e938040.live.126.net/live/d22b53f3308647b2bb3fd9c00f10eb04?wsSecret=b60558bdd38d6b8ff0e3df7d5032ccb1&wsTime=1482995003","type":"CNC","region":""}],"pushUrl":"rtmp://59.111.17.86/live/d22b53f3308647b2bb3fd9c00f10eb04?token=rtmpeyJjZG5zIjpbeyJ1cmwiOiJydG1wOi8vcDJlOTM4MDQwLmxpdmUuMTI2Lm5ldC9saXZlL2QyMmI1M2YzMzA4NjQ3YjJiYjNmZDljMDBmMTBlYjA0P3dzU2VjcmV0PWI2MDU1OGJkZDM4ZDZiOGZmMGUzZGY3ZDUwMzJjY2IxJndzVGltZT0xNDgyOTk1MDAzIiwidHlwZSI6IkNOQyJ9XX0K:311fea051b4045db8301a1eaf8da2060:VaI2GHvuWMHFYX4rAMieF7wGvAU&src=p2e938040.live.126.net","sdkParasRet":null}
+
+[INFO ]10:59:55,787, [Class]HttpHelper, [Method]processResponseCode, {
+  "requestId": "d2b8ca01-f7e1-11e6-a143-fa163eac5853",
+  "rtmpservers": [
+    {
+      "url": "rtmp://59.111.17.86/live/d22b53f3308647b2bb3fd9c00f10eb04?token\u003drtmpeyJjZG5zIjpbeyJ1cmwiOiJydG1wOi8vcDJlOTM4MDQwLmxpdmUuMTI2Lm5ldC9saXZlL2QyMmI1M2YzMzA4NjQ3YjJiYjNmZDljMDBmMTBlYjA0P3dzU2VjcmV0PWI2MDU1OGJkZDM4ZDZiOGZmMGUzZGY3ZDUwMzJjY2IxJndzVGltZT0xNDgyOTk1MDAzIiwidHlwZSI6IkNOQyJ9XX0K:311fea051b4045db8301a1eaf8da2060:VaI2GHvuWMHFYX4rAMieF7wGvAU\u0026src\u003dp2e938040.live.126.net",
+      "type": "netease",
+      "region": "hz"
+    },
+    {
+      "url": "rtmp://59.111.17.89/live/d22b53f3308647b2bb3fd9c00f10eb04?token\u003drtmpeyJjZG5zIjpbeyJ1cmwiOiJydG1wOi8vcDJlOTM4MDQwLmxpdmUuMTI2Lm5ldC9saXZlL2QyMmI1M2YzMzA4NjQ3YjJiYjNmZDljMDBmMTBlYjA0P3dzU2VjcmV0PWI2MDU1OGJkZDM4ZDZiOGZmMGUzZGY3ZDUwMzJjY2IxJndzVGltZT0xNDgyOTk1MDAzIiwidHlwZSI6IkNOQyJ9XX0K:311fea051b4045db8301a1eaf8da2060:VaI2GHvuWMHFYX4rAMieF7wGvAU\u0026src\u003dp2e938040.live.126.net",
+      "type": "netease",
+      "region": "hz"
+    },
+    {
+      "url": "rtmp://59.111.17.88/live/d22b53f3308647b2bb3fd9c00f10eb04?token\u003drtmpeyJjZG5zIjpbeyJ1cmwiOiJydG1wOi8vcDJlOTM4MDQwLmxpdmUuMTI2Lm5ldC9saXZlL2QyMmI1M2YzMzA4NjQ3YjJiYjNmZDljMDBmMTBlYjA0P3dzU2VjcmV0PWI2MDU1OGJkZDM4ZDZiOGZmMGUzZGY3ZDUwMzJjY2IxJndzVGltZT0xNDgyOTk1MDAzIiwidHlwZSI6IkNOQyJ9XX0K:311fea051b4045db8301a1eaf8da2060:VaI2GHvuWMHFYX4rAMieF7wGvAU\u0026src\u003dp2e938040.live.126.net",
+      "type": "netease",
+      "region": "hz"
+    },
+    {
+      "url": "rtmp://p2e938040.live.126.net/live/d22b53f3308647b2bb3fd9c00f10eb04?wsSecret\u003db60558bdd38d6b8ff0e3df7d5032ccb1\u0026wsTime\u003d1482995003",
+      "type": "CNC",
+      "region": ""
+    }
+  ],
+  "pushUrl": "rtmp://59.111.17.86/live/d22b53f3308647b2bb3fd9c00f10eb04?token\u003drtmpeyJjZG5zIjpbeyJ1cmwiOiJydG1wOi8vcDJlOTM4MDQwLmxpdmUuMTI2Lm5ldC9saXZlL2QyMmI1M2YzMzA4NjQ3YjJiYjNmZDljMDBmMTBlYjA0P3dzU2VjcmV0PWI2MDU1OGJkZDM4ZDZiOGZmMGUzZGY3ZDUwMzJjY2IxJndzVGltZT0xNDgyOTk1MDAzIiwidHlwZSI6IkNOQyJ9XX0K:311fea051b4045db8301a1eaf8da2060:VaI2GHvuWMHFYX4rAMieF7wGvAU\u0026src\u003dp2e938040.live.126.net"
+}
+[INFO ]10:59:55,799, [Class]Debug, [Method]getPushUrlOnline, =======================done=====================
+[INFO ]11:03:47,179, [Class]Debug, [Method]getPushUrlOnline, ===========getPushUrlTencentVcloud========
+[INFO ]11:03:47,228, [Class]HttpHelper, [Method]getCompleteURL, URL: http://gslb.live.126.net/getpushurl
+[INFO ]11:03:47,282, [Class]HttpHelper, [Method]post, body:{"pushUrl":"rtmp://p1.live.126.net/live/802b5d3636f446648978e4cc225c4cf2?wsSecret=32e56d404d392c77f67e20e0570ad6e0&wsTime=1472215565"}
+[INFO ]11:03:47,729, [Class]HttpHelper, [Method]processResponseCode, 200
+[INFO ]11:03:47,730, [Class]HttpHelper, [Method]processResponseCode, HTTP/1.1 200 OK
+[INFO ]11:03:47,730, [Class]HttpHelper, [Method]processResponseCode, {"requestId":"5cfc7bea-f7e2-11e6-a143-fa163eac5853","roomservers":["wss://hz0.rs.live.126.net:443","wss://hz3.rs.live.126.net:443","wss://hz2.rs.live.126.net:443"],"token":"joinroom eyJjZG5zIjpbeyJ1cmwiOiJydG1wOi8vcDEubGl2ZS4xMjYubmV0L2xpdmUvODAyYjVkMzYzNmY0NDY2NDg5NzhlNGNjMjI1YzRjZjI_d3NTZWNyZXQ9MzJlNTZkNDA0ZDM5MmM3N2Y2N2UyMGUwNTcwYWQ2ZTAmd3NUaW1lPTE0NzIyMTU1NjUiLCJ0eXBlIjoiQ05DIn1dfQo:311fea051b4045db8301a1eaf8da2060:plyLNDhY_Drsi1zUnf-J_9NGwJc","sdkParasRet":null}
+
+[INFO ]11:03:47,755, [Class]HttpHelper, [Method]processResponseCode, {
+  "requestId": "5cfc7bea-f7e2-11e6-a143-fa163eac5853",
+  "roomservers": [
+    "wss://hz0.rs.live.126.net:443",
+    "wss://hz3.rs.live.126.net:443",
+    "wss://hz2.rs.live.126.net:443"
+  ],
+  "token": "joinroom eyJjZG5zIjpbeyJ1cmwiOiJydG1wOi8vcDEubGl2ZS4xMjYubmV0L2xpdmUvODAyYjVkMzYzNmY0NDY2NDg5NzhlNGNjMjI1YzRjZjI_d3NTZWNyZXQ9MzJlNTZkNDA0ZDM5MmM3N2Y2N2UyMGUwNTcwYWQ2ZTAmd3NUaW1lPTE0NzIyMTU1NjUiLCJ0eXBlIjoiQ05DIn1dfQo:311fea051b4045db8301a1eaf8da2060:plyLNDhY_Drsi1zUnf-J_9NGwJc"
+}
+[INFO ]11:03:47,764, [Class]Debug, [Method]getPushUrlOnline, =======================done=====================
+[INFO ]11:06:28,476, [Class]Debug, [Method]getPushUrlOnline, ===========getPushUrlTencentVcloud========
+[INFO ]11:06:28,536, [Class]HttpHelper, [Method]getCompleteURL, URL: http://gslb.live.126.net/getpushurl
+[INFO ]11:06:28,583, [Class]HttpHelper, [Method]post, body:{"pushUrl":"rtmp://p1.live.126.net/live/802b5d3636f446648978e4cc225c4cf2?wsSecret=32e56d404d392c77f67e20e0570ad6e0&wsTime=1472215565"}
+[INFO ]11:06:28,951, [Class]HttpHelper, [Method]processResponseCode, 200
+[INFO ]11:06:28,951, [Class]HttpHelper, [Method]processResponseCode, HTTP/1.1 200 OK
+[INFO ]11:06:28,951, [Class]HttpHelper, [Method]processResponseCode, {"requestId":"bd1a069f-f7e2-11e6-a143-fa163eac5853","roomservers":["wss://czyd0.rs.live.126.net:443","wss://czyd1.rs.live.126.net:443"],"token":"joinroom eyJjZG5zIjpbeyJ1cmwiOiJydG1wOi8vcDEubGl2ZS4xMjYubmV0L2xpdmUvODAyYjVkMzYzNmY0NDY2NDg5NzhlNGNjMjI1YzRjZjI_d3NTZWNyZXQ9MzJlNTZkNDA0ZDM5MmM3N2Y2N2UyMGUwNTcwYWQ2ZTAmd3NUaW1lPTE0NzIyMTU1NjUiLCJ0eXBlIjoiQ05DIn1dfQo:311fea051b4045db8301a1eaf8da2060:plyLNDhY_Drsi1zUnf-J_9NGwJc","sdkParasRet":null}
+
+[INFO ]11:06:28,984, [Class]HttpHelper, [Method]processResponseCode, {
+  "requestId": "bd1a069f-f7e2-11e6-a143-fa163eac5853",
+  "roomservers": [
+    "wss://czyd0.rs.live.126.net:443",
+    "wss://czyd1.rs.live.126.net:443"
+  ],
+  "token": "joinroom eyJjZG5zIjpbeyJ1cmwiOiJydG1wOi8vcDEubGl2ZS4xMjYubmV0L2xpdmUvODAyYjVkMzYzNmY0NDY2NDg5NzhlNGNjMjI1YzRjZjI_d3NTZWNyZXQ9MzJlNTZkNDA0ZDM5MmM3N2Y2N2UyMGUwNTcwYWQ2ZTAmd3NUaW1lPTE0NzIyMTU1NjUiLCJ0eXBlIjoiQ05DIn1dfQo:311fea051b4045db8301a1eaf8da2060:plyLNDhY_Drsi1zUnf-J_9NGwJc"
+}
+[INFO ]11:06:28,993, [Class]Debug, [Method]getPushUrlOnline, =======================done=====================
+[INFO ]11:07:57,281, [Class]Debug, [Method]getPushUrlOnline, ===========getPushUrlTencentVcloud========
+[INFO ]11:07:57,355, [Class]HttpHelper, [Method]getCompleteURL, URL: http://gslb.live.126.net/getpushurl
+[INFO ]11:07:57,391, [Class]HttpHelper, [Method]post, body:{"pushUrl":"rtmp://p1.live.126.net/live/802b5d3636f446648978e4cc225c4cf2?wsSecret=32e56d404d392c77f67e20e0570ad6e0&wsTime=1472215565"}
+[INFO ]11:07:57,782, [Class]HttpHelper, [Method]processResponseCode, 200
+[INFO ]11:07:57,783, [Class]HttpHelper, [Method]processResponseCode, HTTP/1.1 200 OK
+[INFO ]11:07:57,783, [Class]HttpHelper, [Method]processResponseCode, {"requestId":"f20bcdf0-f7e2-11e6-a143-fa163eac5853","roomservers":["wss://hz0.rs.live.126.net:443","wss://hz3.rs.live.126.net:443","wss://hz2.rs.live.126.net:443"],"token":"joinroom eyJjZG5zIjpbeyJ1cmwiOiJydG1wOi8vcDEubGl2ZS4xMjYubmV0L2xpdmUvODAyYjVkMzYzNmY0NDY2NDg5NzhlNGNjMjI1YzRjZjI_d3NTZWNyZXQ9MzJlNTZkNDA0ZDM5MmM3N2Y2N2UyMGUwNTcwYWQ2ZTAmd3NUaW1lPTE0NzIyMTU1NjUiLCJ0eXBlIjoiQ05DIn1dfQo:311fea051b4045db8301a1eaf8da2060:plyLNDhY_Drsi1zUnf-J_9NGwJc","sdkParasRet":null}
+
+[INFO ]11:07:57,805, [Class]HttpHelper, [Method]processResponseCode, {
+  "requestId": "f20bcdf0-f7e2-11e6-a143-fa163eac5853",
+  "roomservers": [
+    "wss://hz0.rs.live.126.net:443",
+    "wss://hz3.rs.live.126.net:443",
+    "wss://hz2.rs.live.126.net:443"
+  ],
+  "token": "joinroom eyJjZG5zIjpbeyJ1cmwiOiJydG1wOi8vcDEubGl2ZS4xMjYubmV0L2xpdmUvODAyYjVkMzYzNmY0NDY2NDg5NzhlNGNjMjI1YzRjZjI_d3NTZWNyZXQ9MzJlNTZkNDA0ZDM5MmM3N2Y2N2UyMGUwNTcwYWQ2ZTAmd3NUaW1lPTE0NzIyMTU1NjUiLCJ0eXBlIjoiQ05DIn1dfQo:311fea051b4045db8301a1eaf8da2060:plyLNDhY_Drsi1zUnf-J_9NGwJc"
+}
+[INFO ]11:07:57,814, [Class]Debug, [Method]getPushUrlOnline, =======================done=====================
+[INFO ]11:11:00,410, [Class]Debug, [Method]getPushUrlOnline, ===========getPushUrlTencentVcloud========
+[INFO ]11:11:00,454, [Class]HttpHelper, [Method]getCompleteURL, URL: http://gslb.live.126.net/getpushurl
+[INFO ]11:11:00,499, [Class]HttpHelper, [Method]post, body:{"pushUrl":"rtmp://p1.live.126.net/live/802b5d3636f446648978e4cc225c4cf2?wsSecret=32e56d404d392c77f67e20e0570ad6e0&wsTime=1472215565"}
+[INFO ]11:11:00,854, [Class]HttpHelper, [Method]processResponseCode, 200
+[INFO ]11:11:00,854, [Class]HttpHelper, [Method]processResponseCode, HTTP/1.1 200 OK
+[INFO ]11:11:00,854, [Class]HttpHelper, [Method]processResponseCode, {"requestId":"5f2a9109-f7e3-11e6-a143-fa163eac5853","roomservers":["wss://shdx0.rs.live.126.net:443"],"token":"joinroom eyJjZG5zIjpbeyJ1cmwiOiJydG1wOi8vcDEubGl2ZS4xMjYubmV0L2xpdmUvODAyYjVkMzYzNmY0NDY2NDg5NzhlNGNjMjI1YzRjZjI_d3NTZWNyZXQ9MzJlNTZkNDA0ZDM5MmM3N2Y2N2UyMGUwNTcwYWQ2ZTAmd3NUaW1lPTE0NzIyMTU1NjUiLCJ0eXBlIjoiQ05DIn1dfQo:311fea051b4045db8301a1eaf8da2060:plyLNDhY_Drsi1zUnf-J_9NGwJc","sdkParasRet":null}
+
+[INFO ]11:11:00,878, [Class]HttpHelper, [Method]processResponseCode, {
+  "requestId": "5f2a9109-f7e3-11e6-a143-fa163eac5853",
+  "roomservers": [
+    "wss://shdx0.rs.live.126.net:443"
+  ],
+  "token": "joinroom eyJjZG5zIjpbeyJ1cmwiOiJydG1wOi8vcDEubGl2ZS4xMjYubmV0L2xpdmUvODAyYjVkMzYzNmY0NDY2NDg5NzhlNGNjMjI1YzRjZjI_d3NTZWNyZXQ9MzJlNTZkNDA0ZDM5MmM3N2Y2N2UyMGUwNTcwYWQ2ZTAmd3NUaW1lPTE0NzIyMTU1NjUiLCJ0eXBlIjoiQ05DIn1dfQo:311fea051b4045db8301a1eaf8da2060:plyLNDhY_Drsi1zUnf-J_9NGwJc"
+}
+[INFO ]11:11:00,887, [Class]Debug, [Method]getPushUrlOnline, =======================done=====================
+[INFO ]11:11:16,788, [Class]Debug, [Method]getPushUrlOnline, ===========getPushUrlTencentVcloud========
+[INFO ]11:11:16,847, [Class]HttpHelper, [Method]getCompleteURL, URL: http://gslb.live.126.net/getpushurl
+[INFO ]11:11:16,887, [Class]HttpHelper, [Method]post, body:{"pushUrl":"rtmp://p1.live.126.net/live/802b5d3636f446648978e4cc225c4cf2?wsSecret=32e56d404d392c77f67e20e0570ad6e0&wsTime=1472215565"}
+[INFO ]11:11:17,310, [Class]HttpHelper, [Method]processResponseCode, 200
+[INFO ]11:11:17,310, [Class]HttpHelper, [Method]processResponseCode, HTTP/1.1 200 OK
+[INFO ]11:11:17,310, [Class]HttpHelper, [Method]processResponseCode, {"requestId":"68f6b3ae-f7e3-11e6-8d2b-fa163e866c5d","rtmpservers":[{"url":"rtmp://60.13.41.42/live/802b5d3636f446648978e4cc225c4cf2?wsSecret=32e56d404d392c77f67e20e0570ad6e0&wsTime=1472215565&wsiphost=ipdb&wsHost=p1.live.126.net","type":"CNC_resolved","region":""}],"pushUrl":"rtmp://60.13.41.42/live/802b5d3636f446648978e4cc225c4cf2?wsSecret=32e56d404d392c77f67e20e0570ad6e0&wsTime=1472215565&wsiphost=ipdb&wsHost=p1.live.126.net","sdkParasRet":null}
+
+[INFO ]11:11:17,337, [Class]HttpHelper, [Method]processResponseCode, {
+  "requestId": "68f6b3ae-f7e3-11e6-8d2b-fa163e866c5d",
+  "rtmpservers": [
+    {
+      "url": "rtmp://60.13.41.42/live/802b5d3636f446648978e4cc225c4cf2?wsSecret\u003d32e56d404d392c77f67e20e0570ad6e0\u0026wsTime\u003d1472215565\u0026wsiphost\u003dipdb\u0026wsHost\u003dp1.live.126.net",
+      "type": "CNC_resolved",
+      "region": ""
+    }
+  ],
+  "pushUrl": "rtmp://60.13.41.42/live/802b5d3636f446648978e4cc225c4cf2?wsSecret\u003d32e56d404d392c77f67e20e0570ad6e0\u0026wsTime\u003d1472215565\u0026wsiphost\u003dipdb\u0026wsHost\u003dp1.live.126.net"
+}
+[INFO ]11:11:17,345, [Class]Debug, [Method]getPushUrlOnline, =======================done=====================

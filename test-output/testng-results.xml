@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="646" started-at="2017-03-22T10:24:18Z" finished-at="2017-03-22T10:24:19Z">
+    <groups>
+      <group name="onlinetest">
+        <method signature="Debug.getPushTypeOnline()[pri:0, instance:com.netease.vcloud.dawn.gslb.testcase.Debug@7e0ea639]" name="getPushTypeOnline" class="com.netease.vcloud.dawn.gslb.testcase.Debug"/>
+      </group> <!-- onlinetest -->
+    </groups>
+    <test name="Default test" duration-ms="646" started-at="2017-03-22T10:24:18Z" finished-at="2017-03-22T10:24:19Z">
+      <class name="com.netease.vcloud.dawn.gslb.testcase.Debug">
+        <test-method status="PASS" signature="getPushTypeOnline()[pri:0, instance:com.netease.vcloud.dawn.gslb.testcase.Debug@7e0ea639]" name="getPushTypeOnline" duration-ms="629" started-at="2017-03-22T18:24:18Z" finished-at="2017-03-22T18:24:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPushTypeOnline -->
+      </class> <!-- com.netease.vcloud.dawn.gslb.testcase.Debug -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

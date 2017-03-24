@@ -1,0 +1,22 @@
+[INFO ]16:05:12,219, [Class]Debug, [Method]getPushUrlWithMapper, ===========getPushUrlTencentVcloud========
+[INFO ]16:05:12,345, [Class]HttpHelper, [Method]getCompleteURL, URL: http://106.2.125.201:8080/getpushurl
+[INFO ]16:05:12,436, [Class]HttpHelper, [Method]post, body:{"pushUrl":"rtmp://pdl7524ed51.live.126.net/live/f39d0ce6c5b54052bb94f3358a564b63?wsSecret=d1f2bd6c3effccfa99f07a40eb70c2c1&wsTime=1482838456"}
+[INFO ]16:05:42,120, [Class]Debug, [Method]getPushUrlWithMapper, ===========getPushUrlTencentVcloud========
+[INFO ]16:05:42,154, [Class]HttpHelper, [Method]getCompleteURL, URL: http://106.2.125.201:80/getpushurl
+[INFO ]16:05:42,180, [Class]HttpHelper, [Method]post, body:{"pushUrl":"rtmp://pdl7524ed51.live.126.net/live/f39d0ce6c5b54052bb94f3358a564b63?wsSecret=d1f2bd6c3effccfa99f07a40eb70c2c1&wsTime=1482838456"}
+[INFO ]16:05:42,485, [Class]HttpHelper, [Method]processResponseCode, 200
+[INFO ]16:05:42,485, [Class]HttpHelper, [Method]processResponseCode, HTTP/1.1 200 OK
+[INFO ]16:05:42,486, [Class]HttpHelper, [Method]processResponseCode, {"requestId":"8430b2d4-0ae8-11e7-9135-fa163efc0c90","rtmpservers":[{"url":"rtmp://pdl7524ed51.live.126.net/live/f39d0ce6c5b54052bb94f3358a564b63?wsSecret=d1f2bd6c3effccfa99f07a40eb70c2c1&wsTime=1482838456","type":"dnion","region":""}],"cdnType":"dnion","sdkParasRet":null}
+
+[INFO ]16:05:42,547, [Class]HttpHelper, [Method]processResponseCode, {
+  "requestId": "8430b2d4-0ae8-11e7-9135-fa163efc0c90",
+  "rtmpservers": [
+    {
+      "url": "rtmp://pdl7524ed51.live.126.net/live/f39d0ce6c5b54052bb94f3358a564b63?wsSecret\u003dd1f2bd6c3effccfa99f07a40eb70c2c1\u0026wsTime\u003d1482838456",
+      "type": "dnion",
+      "region": ""
+    }
+  ],
+  "cdnType": "dnion"
+}
+[INFO ]16:05:42,565, [Class]Debug, [Method]getPushUrlWithMapper, =======================done=====================

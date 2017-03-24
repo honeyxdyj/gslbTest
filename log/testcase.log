@@ -1,0 +1,37 @@
+[INFO ]18:22:44,025, [Class]Debug, [Method]getPushTypeOnline, ===========getPushType========
+[INFO ]18:22:44,287, [Class]HttpHelper, [Method]getCompleteURL, URL: http://10.170.164.58:8080/getpushtype
+[INFO ]18:22:44,351, [Class]HttpHelper, [Method]post, body:{"pullUrl":"http://v1.live.126.net/live/802b5d3636f446648978e4cc225c4cf2.flv?netease=1.live.126.net"}
+[INFO ]18:24:18,514, [Class]Debug, [Method]getPushTypeOnline, ===========getPushType========
+[INFO ]18:24:18,560, [Class]HttpHelper, [Method]getCompleteURL, URL: http://10.170.164.58:8080/getpushtype
+[INFO ]18:24:18,589, [Class]HttpHelper, [Method]post, body:{"pullUrl":"http://v1.live.126.net/live/802b5d3636f446648978e4cc225c4cf2.flv?netease=1.live.126.net"}
+[INFO ]18:24:18,958, [Class]HttpHelper, [Method]processResponseCode, 200
+[INFO ]18:24:18,958, [Class]HttpHelper, [Method]processResponseCode, HTTP/1.1 200 OK
+[INFO ]18:24:18,959, [Class]HttpHelper, [Method]processResponseCode, {"pushtype":10}
+
+[INFO ]18:24:19,012, [Class]HttpHelper, [Method]processResponseCode, {
+  "pushtype": 10
+}
+[INFO ]18:24:19,026, [Class]Debug, [Method]getPushTypeOnline, getPullUrl: 200
+[INFO ]18:24:19,027, [Class]Debug, [Method]getPushTypeOnline, cdnType: null
+[INFO ]18:24:19,030, [Class]HttpHelper, [Method]getCompleteURL, URL: http://10.170.164.58:8080/getpushtype
+[INFO ]18:24:19,031, [Class]HttpHelper, [Method]post, body:{"pullUrl":"http://pullhls1.live.126.net/live/802b5d3636f446648978e4cc225c4cf2/playlist.m3u8"}
+[INFO ]18:24:19,073, [Class]HttpHelper, [Method]processResponseCode, 200
+[INFO ]18:24:19,073, [Class]HttpHelper, [Method]processResponseCode, HTTP/1.1 200 OK
+[INFO ]18:24:19,073, [Class]HttpHelper, [Method]processResponseCode, {"pushtype":10}
+
+[INFO ]18:24:19,074, [Class]HttpHelper, [Method]processResponseCode, {
+  "pushtype": 10
+}
+[INFO ]18:24:19,074, [Class]Debug, [Method]getPushTypeOnline, getPullUrl: 200
+[INFO ]18:24:19,075, [Class]Debug, [Method]getPushTypeOnline, cdnType: null
+[INFO ]18:24:19,076, [Class]HttpHelper, [Method]getCompleteURL, URL: http://10.170.164.58:8080/getpushtype
+[INFO ]18:24:19,076, [Class]HttpHelper, [Method]post, body:{"pullUrl":"rtmp://v1.live.126.net/live/802b5d3636f446648978e4cc225c4cf2"}
+[INFO ]18:24:19,120, [Class]HttpHelper, [Method]processResponseCode, 200
+[INFO ]18:24:19,120, [Class]HttpHelper, [Method]processResponseCode, HTTP/1.1 200 OK
+[INFO ]18:24:19,120, [Class]HttpHelper, [Method]processResponseCode, {"pushtype":10}
+
+[INFO ]18:24:19,121, [Class]HttpHelper, [Method]processResponseCode, {
+  "pushtype": 10
+}
+[INFO ]18:24:19,121, [Class]Debug, [Method]getPushTypeOnline, getPullUrl: 200
+[INFO ]18:24:19,121, [Class]Debug, [Method]getPushTypeOnline, cdnType: null

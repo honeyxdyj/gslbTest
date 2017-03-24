@@ -1,0 +1,19 @@
+[INFO ]15:34:02,595, [Class]Debug, [Method]getPushUrlWithMapper, ===========getPushUrlTencentVcloud========
+[INFO ]15:34:02,807, [Class]HttpHelper, [Method]getCompleteURL, URL: http://106.2.125.201:8080/getpushurl
+[INFO ]15:34:02,877, [Class]HttpHelper, [Method]post, body:{"pushUrl":"rtmp://pdl7524ed51.live.126.net/live/f39d0ce6c5b54052bb94f3358a564b63?wsSecret=d1f2bd6c3effccfa99f07a40eb70c2c1&wsTime=1482838456"}
+[INFO ]15:34:03,577, [Class]HttpHelper, [Method]processResponseCode, 200
+[INFO ]15:34:03,577, [Class]HttpHelper, [Method]processResponseCode, HTTP/1.1 200 OK
+[INFO ]15:34:03,578, [Class]HttpHelper, [Method]processResponseCode, {"requestId":"f9e2b52b-0a1a-11e7-847d-fa163efc0c90","rtmpservers":[{"url":"rtmp://pdl7524ed51.live.126.net/live/f39d0ce6c5b54052bb94f3358a564b63?wsSecret=d1f2bd6c3effccfa99f07a40eb70c2c1&wsTime=1482838456","type":"dnion","region":""}],"cdnType":"dnion","sdkParasRet":null}
+
+[INFO ]15:34:03,648, [Class]HttpHelper, [Method]processResponseCode, {
+  "requestId": "f9e2b52b-0a1a-11e7-847d-fa163efc0c90",
+  "rtmpservers": [
+    {
+      "url": "rtmp://pdl7524ed51.live.126.net/live/f39d0ce6c5b54052bb94f3358a564b63?wsSecret\u003dd1f2bd6c3effccfa99f07a40eb70c2c1\u0026wsTime\u003d1482838456",
+      "type": "dnion",
+      "region": ""
+    }
+  ],
+  "cdnType": "dnion"
+}
+[INFO ]15:34:03,706, [Class]Debug, [Method]getPushUrlWithMapper, =======================done=====================

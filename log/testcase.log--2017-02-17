@@ -1,0 +1,71 @@
+[INFO ]11:02:38,910, [Class]Debug, [Method]getPullUrl, ============getPullUrl============
+[INFO ]11:02:39,048, [Class]HttpHelper, [Method]getCompleteURL, URL: http://106.2.125.201:8080/getpullurl
+[INFO ]11:02:39,098, [Class]HttpHelper, [Method]post, body:{"pullUrl":"http://v2e96200b.live.126.net/live/24cec6e4cf774d079544af590bcdae44.flv?netease=v2e96200b.live.126.net"}
+[INFO ]11:02:39,433, [Class]HttpHelper, [Method]processResponseCode, 200
+[INFO ]11:02:39,433, [Class]HttpHelper, [Method]processResponseCode, HTTP/1.1 200 OK
+[INFO ]11:02:39,434, [Class]HttpHelper, [Method]processResponseCode, {"requestId":"8a8a1aa5-f4bd-11e6-a44d-fa163efc0c90","pullUrls":[{"url":"http://v2e96200b.live.126.net/live/24cec6e4cf774d079544af590bcdae44.flv?netease=v2e96200b.live.126.net","cdnType":"CNC","resolved":false}],"pushType":9,"sdkParasRet":null}
+
+[INFO ]11:02:39,467, [Class]HttpHelper, [Method]processResponseCode, {
+  "requestId": "8a8a1aa5-f4bd-11e6-a44d-fa163efc0c90",
+  "pullUrls": [
+    {
+      "url": "http://v2e96200b.live.126.net/live/24cec6e4cf774d079544af590bcdae44.flv?netease\u003dv2e96200b.live.126.net",
+      "cdnType": "CNC",
+      "resolved": false
+    }
+  ],
+  "pushType": 9
+}
+[INFO ]11:02:39,477, [Class]Debug, [Method]getPullUrl, getPullUrl: [com.netease.vcloud.dawn.gslb.response.PullUrlParam@c540f5a]
+[INFO ]11:02:39,477, [Class]Debug, [Method]getPullUrl, getPullUrl: 200
+[INFO ]11:02:39,477, [Class]Debug, [Method]getPullUrl, getUrl: http://v2e96200b.live.126.net/live/24cec6e4cf774d079544af590bcdae44.flv?netease=v2e96200b.live.126.net
+[INFO ]11:02:39,478, [Class]Debug, [Method]getPullUrl, cdnType: CNC
+[INFO ]11:02:39,478, [Class]Debug, [Method]getPullUrl, resolved: false
+[INFO ]11:02:39,499, [Class]Debug, [Method]getPullUrlCdnRandom, ============getPullUrlCdnRandom============
+[INFO ]11:02:39,501, [Class]HttpHelper, [Method]getCompleteURL, URL: http://106.2.125.201:8080/getpullurl
+[INFO ]11:02:39,501, [Class]HttpHelper, [Method]post, body:{"pullUrl":"http://v2e96200b.live.126.net/live/6eb04648cbc84c3492273ae095057f77.flv?netease=v2e96200b.live.126.net"}
+[INFO ]11:02:39,550, [Class]HttpHelper, [Method]processResponseCode, 200
+[INFO ]11:02:39,552, [Class]HttpHelper, [Method]processResponseCode, HTTP/1.1 200 OK
+[INFO ]11:02:39,552, [Class]HttpHelper, [Method]processResponseCode, {"requestId":"8a9f7db5-f4bd-11e6-a44d-fa163efc0c90","pullUrls":[{"url":"http://v2e96200b.live.126.net/live/6eb04648cbc84c3492273ae095057f77.flv?netease=v2e96200b.live.126.net","cdnType":"CNC","resolved":false}],"pushType":9,"sdkParasRet":null}
+
+[INFO ]11:02:39,553, [Class]HttpHelper, [Method]processResponseCode, {
+  "requestId": "8a9f7db5-f4bd-11e6-a44d-fa163efc0c90",
+  "pullUrls": [
+    {
+      "url": "http://v2e96200b.live.126.net/live/6eb04648cbc84c3492273ae095057f77.flv?netease\u003dv2e96200b.live.126.net",
+      "cdnType": "CNC",
+      "resolved": false
+    }
+  ],
+  "pushType": 9
+}
+[INFO ]11:02:39,553, [Class]Debug, [Method]getPullUrlCdnRandom, getPullUrl: [com.netease.vcloud.dawn.gslb.response.PullUrlParam@4c40b76e]
+[INFO ]11:02:39,553, [Class]Debug, [Method]getPullUrlCdnRandom, getPullUrl: 200
+[INFO ]11:02:39,554, [Class]Debug, [Method]getPullUrlCdnRandom, 主CDN前置的概率为：0/1
+[INFO ]11:02:39,555, [Class]Debug, [Method]getPushType, ===========getPushType========
+[INFO ]11:02:39,556, [Class]HttpHelper, [Method]getCompleteURL, URL: http://106.2.125.201:8080/getpushtype
+[INFO ]11:02:39,557, [Class]HttpHelper, [Method]post, body:{"pullUrl":"rtmp://v1.live.126.net/live/802b5d3636f446648978e4cc225c4cf2"}
+[INFO ]11:02:39,580, [Class]HttpHelper, [Method]processResponseCode, 400
+[INFO ]11:02:39,580, [Class]HttpHelper, [Method]processResponseCode, HTTP/1.1 400 Bad Request
+[INFO ]11:02:39,580, [Class]HttpHelper, [Method]processResponseCode, 
+[INFO ]11:02:39,581, [Class]HttpHelper, [Method]processResponseCode, null
+[INFO ]14:24:31,494, [Class]SmokeTest, [Method]test, ========== test ============
+[INFO ]14:24:50,772, [Class]Debug, [Method]getPushUrlWithMapper, ===========getPushUrlWithMapper========
+[INFO ]14:24:50,838, [Class]HttpHelper, [Method]getCompleteURL, URL: http://106.2.125.201:8080/getpushurl
+[INFO ]14:24:50,876, [Class]HttpHelper, [Method]post, body:{"pushUrl":"rtmp://p2e96200b.live.126.net/live/42c29b5c78524d3086f20fa31e522e71?wsSecret=c4e7e4c10bd691794ab6a85ced00163b&wsTime=1482132014"}
+[INFO ]14:24:51,188, [Class]HttpHelper, [Method]processResponseCode, 200
+[INFO ]14:24:51,188, [Class]HttpHelper, [Method]processResponseCode, HTTP/1.1 200 OK
+[INFO ]14:24:51,189, [Class]HttpHelper, [Method]processResponseCode, {"requestId":"c9a8b005-f4d9-11e6-a44d-fa163efc0c90","rtmpservers":[{"url":"rtmp://p2e96200b.live.126.net/live/42c29b5c78524d3086f20fa31e522e71?wsSecret=c4e7e4c10bd691794ab6a85ced00163b&wsTime=1482132014","type":"CNC","region":""}],"cdnType":"CNC","sdkParasRet":null}
+
+[INFO ]14:24:51,250, [Class]HttpHelper, [Method]processResponseCode, {
+  "requestId": "c9a8b005-f4d9-11e6-a44d-fa163efc0c90",
+  "rtmpservers": [
+    {
+      "url": "rtmp://p2e96200b.live.126.net/live/42c29b5c78524d3086f20fa31e522e71?wsSecret\u003dc4e7e4c10bd691794ab6a85ced00163b\u0026wsTime\u003d1482132014",
+      "type": "CNC",
+      "region": ""
+    }
+  ],
+  "cdnType": "CNC"
+}
+[INFO ]14:24:51,259, [Class]Debug, [Method]getPushUrlWithMapper, ==========================返回webrtc方式次数： 0

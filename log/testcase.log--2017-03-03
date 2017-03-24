@@ -1,0 +1,41 @@
+[INFO ]11:25:08,107, [Class]Debug, [Method]getPushUrlWithMapper, ===========getPushUrlWithMapper========
+[INFO ]11:25:08,300, [Class]HttpHelper, [Method]getCompleteURL, URL: http://106.2.44.176:8080/getpushurl
+[INFO ]11:25:08,358, [Class]HttpHelper, [Method]post, body:{"pushUrl":"rtmp://p2e96200b.live.126.net/live/42c29b5c78524d3086f20fa31e522e71?wsSecret=c4e7e4c10bd691794ab6a85ced00163b&wsTime=1482132014"}
+[INFO ]11:48:16,892, [Class]Debug, [Method]getPushUrlWithMapper, ===========getPushUrlWithMapper========
+[INFO ]11:48:16,967, [Class]HttpHelper, [Method]getCompleteURL, URL: http://106.2.44.176:8080/getpushurl
+[INFO ]11:48:16,992, [Class]HttpHelper, [Method]post, body:{"pushUrl":"rtmp://p2e96200b.live.126.net/live/42c29b5c78524d3086f20fa31e522e71?wsSecret=c4e7e4c10bd691794ab6a85ced00163b&wsTime=1482132014"}
+[INFO ]11:48:17,444, [Class]HttpHelper, [Method]processResponseCode, 200
+[INFO ]11:48:17,444, [Class]HttpHelper, [Method]processResponseCode, HTTP/1.1 200 OK
+[INFO ]11:48:17,444, [Class]HttpHelper, [Method]processResponseCode, {"requestId":"3bb7d018-ffc4-11e6-b2e5-fa163eb78398","rtmpservers":[{"url":"rtmp://p2e96200b.live.126.net/live/42c29b5c78524d3086f20fa31e522e71?wsSecret=c4e7e4c10bd691794ab6a85ced00163b&wsTime=1482132014","type":"CNC","region":""}],"cdnType":"CNC","sdkParasRet":null}
+
+[INFO ]11:48:17,517, [Class]HttpHelper, [Method]processResponseCode, {
+  "requestId": "3bb7d018-ffc4-11e6-b2e5-fa163eb78398",
+  "rtmpservers": [
+    {
+      "url": "rtmp://p2e96200b.live.126.net/live/42c29b5c78524d3086f20fa31e522e71?wsSecret\u003dc4e7e4c10bd691794ab6a85ced00163b\u0026wsTime\u003d1482132014",
+      "type": "CNC",
+      "region": ""
+    }
+  ],
+  "cdnType": "CNC"
+}
+[INFO ]11:48:17,602, [Class]Debug, [Method]getPushUrlWithMapper, ==========================返回webrtc方式次数： 0
+[INFO ]11:48:41,971, [Class]Debug, [Method]getPushUrlWithMapper, ===========getPushUrlWithMapper========
+[INFO ]11:48:42,016, [Class]HttpHelper, [Method]getCompleteURL, URL: http://106.2.44.176:8080/getpushurl
+[INFO ]11:48:42,042, [Class]HttpHelper, [Method]post, body:{"pushUrl":"rtmp://p2e96200b.live.126.net/live/42c29b5c78524d3086f20fa31e522e71?wsSecret=c4e7e4c10bd691794ab6a85ced00163b&wsTime=1482132014"}
+[INFO ]11:48:42,349, [Class]HttpHelper, [Method]processResponseCode, 200
+[INFO ]11:48:42,350, [Class]HttpHelper, [Method]processResponseCode, HTTP/1.1 200 OK
+[INFO ]11:48:42,350, [Class]HttpHelper, [Method]processResponseCode, {"requestId":"4a985d51-ffc4-11e6-b2e5-fa163eb78398","rtmpservers":[{"url":"rtmp://p2e96200b.live.126.net/live/42c29b5c78524d3086f20fa31e522e71?wsSecret=c4e7e4c10bd691794ab6a85ced00163b&wsTime=1482132014","type":"CNC","region":""}],"cdnType":"CNC","sdkParasRet":null}
+
+[INFO ]11:48:42,381, [Class]HttpHelper, [Method]processResponseCode, {
+  "requestId": "4a985d51-ffc4-11e6-b2e5-fa163eb78398",
+  "rtmpservers": [
+    {
+      "url": "rtmp://p2e96200b.live.126.net/live/42c29b5c78524d3086f20fa31e522e71?wsSecret\u003dc4e7e4c10bd691794ab6a85ced00163b\u0026wsTime\u003d1482132014",
+      "type": "CNC",
+      "region": ""
+    }
+  ],
+  "cdnType": "CNC"
+}
+[INFO ]11:48:42,399, [Class]Debug, [Method]getPushUrlWithMapper, ==========================返回webrtc方式次数： 0
